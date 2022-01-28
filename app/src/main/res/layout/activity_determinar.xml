@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30sp"
+        android:text="@string/titulo"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:paddingTop="20sp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/eda"
+        android:inputType="textPersonName"
+        android:paddingTop="20sp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btEnviarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Siguiente"
+        android:backgroundTint="#341773"
+        android:paddingTop="30sp"
+        android:text="@string/enviarDatos"
+        android:textSize="24sp"
+        app:cornerRadius="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="526dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/estudiantes_ugb2021" />
+
+</LinearLayout>
+
+

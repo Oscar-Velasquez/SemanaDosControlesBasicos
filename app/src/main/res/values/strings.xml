@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Semana Dos</string>
+    <string name="titulo">CONTROLES BASICOS</string>
+    <string name="nombre">Escriba su nombre</string>
+    <string name="apellido">Escriba su apellido</string>
+    <string name="enviarDatos">ENVIAR DATOS</string>
+    <string name="etbutton">Siguiente</string>
+
+    <string name="app_nam">Entre dos activitys</string>
+    <string name="titul">DETERMINAR SI ES MAYOR DE EDAD</string>
+    <string name="nombr">Escriba su nombre</string>
+    <string name="eda">Escriba su edad</string>
+    <string name="enviarDato">ENVIAR DATOS</string>
+    <string name="volver">PANTALLA ANTERIOR</string>
+
+    <string name="titulo2">DETERMINAR SI ES MAYOR DE EDAD</string>
+    <string name="app_nama">Entre dos activitys</string>
+    <string name="setText"> </string>
+    <string name="tvEdadReci"> </string>
+    <string name="btVolver">Pantalla Anterior</string>
+    <string name="tvEstado"> </string>
+
+    <string name="BotonSiguiente">Siguiente</string>
+
+
+</resources>
